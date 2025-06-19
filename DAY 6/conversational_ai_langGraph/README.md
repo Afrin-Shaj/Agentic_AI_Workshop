@@ -2,7 +2,6 @@
 
 AI-powered assistant to analyze competitors, footfall trends, and estimate setup costs for small businesses in specific locations using real-time web data and generative AI.
 
----
 
 ## 🚀 Features
 
@@ -14,7 +13,6 @@ AI-powered assistant to analyze competitors, footfall trends, and estimate setup
 - 🧩 **Modular DAG-based Workflow:** Built using LangGraph for clear separation of logic and flow control.
 - 💬 **Conversational Interface:** Uses Streamlit's chat UI for an interactive experience.
 
----
 
 ## 🛠️ How it was built
 
@@ -48,7 +46,6 @@ We built custom tools like:
 - A sleek and interactive interface lets users ask questions in natural language.
 - Displays step-by-step conversation and formatted final reports.
 
----
 
 ## 📦 How to Run Locally
 
