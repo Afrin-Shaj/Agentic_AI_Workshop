@@ -1,0 +1,558 @@
+2025-06-17 20:54:58,152 - INFO - Initialized LangChain LLM successfully
+2025-06-17 21:14:45,494 - INFO - Initialized LangChain LLM successfully
+2025-06-17 21:16:02,349 - INFO - Initialized LangChain LLM successfully
+2025-06-17 21:16:11,950 - INFO - Initialized LangChain LLM successfully
+2025-06-17 21:16:22,775 - INFO - Initialized LangChain LLM successfully
+2025-06-17 21:16:34,271 - INFO - Initialized LangChain LLM successfully
+2025-06-17 21:16:44,311 - INFO - Initialized LangChain LLM successfully
+2025-06-17 21:16:52,020 - INFO - Initialized LangChain LLM successfully
+2025-06-17 21:16:52,118 - ERROR - Request error scraping https://www.linkedin.com/in/swetha-guru-36a98b1bb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app: HTTPSConnectionPool(host='www.linkedin.com', port=443): Max retries exceeded with url: /in/swetha-guru-36a98b1bb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000022A97117C50>: Failed to resolve 'www.linkedin.com' ([Errno 11001] getaddrinfo failed)"))
+2025-06-17 21:16:53,224 - ERROR - Request error scraping https://raw.githubusercontent.com/torvalds/linux/master/README: HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /torvalds/linux/master/README (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000022A9C1F6F30>: Failed to resolve 'raw.githubusercontent.com' ([Errno 11001] getaddrinfo failed)"))
+2025-06-17 21:16:54,328 - ERROR - Request error scraping https://about.gitlab.com/blog/2022/05/03/how-gitlabs-customer-and-partner-focus-fuels-our-culture/: HTTPSConnectionPool(host='about.gitlab.com', port=443): Max retries exceeded with url: /blog/2022/05/03/how-gitlabs-customer-and-partner-focus-fuels-our-culture/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000022A9BFE2810>: Failed to resolve 'about.gitlab.com' ([Errno 11001] getaddrinfo failed)"))
+2025-06-17 21:16:55,432 - ERROR - Request error scraping https://about.gitlab.com/blog/2020/07/07/how-to-optimize-gitlabs-culture-with-proper-values/: HTTPSConnectionPool(host='about.gitlab.com', port=443): Max retries exceeded with url: /blog/2020/07/07/how-to-optimize-gitlabs-culture-with-proper-values/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000022A9BFE2960>: Failed to resolve 'about.gitlab.com' ([Errno 11001] getaddrinfo failed)"))
+2025-06-17 21:16:56,539 - ERROR - Request error scraping https://www.glassdoor.com/Reviews/iHerb-company-culture-Reviews-EI_IE409565.0,5_KH6,21.htm: HTTPSConnectionPool(host='www.glassdoor.com', port=443): Max retries exceeded with url: /Reviews/iHerb-company-culture-Reviews-EI_IE409565.0,5_KH6,21.htm (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000022A9C1F5190>: Failed to resolve 'www.glassdoor.com' ([Errno 11001] getaddrinfo failed)"))
+2025-06-17 21:18:10,353 - INFO - Initialized LangChain LLM successfully
+2025-06-17 21:18:12,302 - INFO - Successfully scraped content from https://www.linkedin.com/in/swetha-guru-36a98b1bb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+2025-06-17 21:18:14,503 - INFO - Successfully scraped content from https://raw.githubusercontent.com/torvalds/linux/master/README
+2025-06-17 21:18:18,055 - INFO - Successfully scraped content from https://about.gitlab.com/blog/2022/05/03/how-gitlabs-customer-and-partner-focus-fuels-our-culture/
+2025-06-17 21:18:21,116 - ERROR - Request error scraping https://about.gitlab.com/blog/2020/07/07/how-to-optimize-gitlabs-culture-with-proper-values/: 404 Client Error: Not Found for url: https://about.gitlab.com/blog/how-to-optimize-gitlabs-culture-with-proper-values/
+2025-06-17 21:18:22,879 - ERROR - Request error scraping https://www.glassdoor.com/Reviews/iHerb-company-culture-Reviews-EI_IE409565.0,5_KH6,21.htm: 403 Client Error: Forbidden for url: https://www.glassdoor.com/Reviews/iHerb-company-culture-Reviews-EI_IE409565.0,5_KH6,21.htm
+2025-06-17 21:18:34,050 - INFO - Candidate behavior analysis completed
+2025-06-17 21:18:44,689 - INFO - Company culture extraction completed
+2025-06-17 21:18:52,464 - INFO - Compatibility mapping completed
+2025-06-17 21:19:00,511 - INFO - Culture fit scoring completed
+2025-06-17 21:37:04,650 - INFO - Initialized LangChain LLM successfully
+2025-06-17 21:37:14,112 - INFO - Initialized LangChain LLM successfully
+2025-06-17 21:37:22,819 - INFO - Initialized LangChain LLM successfully
+2025-06-17 21:37:34,177 - INFO - Initialized LangChain LLM successfully
+2025-06-17 21:37:46,184 - INFO - Initialized LangChain LLM successfully
+2025-06-17 21:37:55,427 - INFO - Initialized LangChain LLM successfully
+2025-06-17 21:38:05,040 - INFO - Initialized LangChain LLM successfully
+2025-06-17 21:38:13,655 - INFO - Initialized LangChain LLM successfully
+2025-06-17 21:38:13,877 - INFO - Initialized LangChain LLM successfully
+2025-06-17 21:38:15,283 - INFO - Successfully scraped content from https://www.linkedin.com/in/linus-torvalds-a775873/
+2025-06-17 21:38:18,042 - INFO - Successfully scraped content from https://github.com/torvalds
+2025-06-17 21:38:20,627 - INFO - Successfully scraped content from https://brendaneich.com/
+2025-06-17 21:38:24,147 - INFO - Successfully scraped content from https://news.ycombinator.com/user?id=torvalds
+2025-06-17 21:38:27,080 - INFO - Successfully scraped content from https://about.gitlab.com/
+2025-06-17 21:38:29,957 - INFO - Successfully scraped content from https://about.gitlab.com/jobs/
+2025-06-17 21:38:32,195 - ERROR - Request error scraping https://www.glassdoor.com/Overview/Working-at-GitLab-EI_IE1296544.11,17.htm: 403 Client Error: Forbidden for url: https://www.glassdoor.com/Overview/Working-at-GitLab-EI_IE1296544.11,17.htm
+2025-06-17 21:38:41,247 - INFO - Successfully scraped content from https://handbook.gitlab.com/handbook/values/
+2025-06-17 21:38:53,221 - INFO - Candidate behavior analysis completed
+2025-06-17 21:39:04,174 - INFO - Company culture extraction completed
+2025-06-17 21:39:13,147 - INFO - Compatibility mapping completed
+2025-06-17 21:39:22,403 - INFO - Culture fit scoring completed
+2025-06-17 21:45:58,423 - INFO - Initialized LangChain LLM successfully
+2025-06-17 21:46:04,648 - INFO - Initialized LangChain LLM successfully
+2025-06-17 21:46:04,986 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-4895' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\AFRIN\AppData\Roaming\Python\Python312\site-packages\tornado\websocket.py:1086> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\AFRIN\AppData\Roaming\Python\Python312\site-packages\tornado\websocket.py", line 1088, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AFRIN\AppData\Roaming\Python\Python312\site-packages\tornado\websocket.py", line 1090, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-06-17 21:46:05,238 - INFO - Initialized LangChain LLM successfully
+2025-06-17 21:46:05,586 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-4941' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\AFRIN\AppData\Roaming\Python\Python312\site-packages\tornado\websocket.py:1086> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\AFRIN\AppData\Roaming\Python\Python312\site-packages\tornado\websocket.py", line 1088, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AFRIN\AppData\Roaming\Python\Python312\site-packages\tornado\websocket.py", line 1090, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2025-06-17 21:46:05,841 - INFO - Initialized LangChain LLM successfully
+2025-06-17 21:47:23,874 - INFO - Initialized LangChain LLM successfully
+2025-06-17 21:47:33,814 - INFO - Initialized LangChain LLM successfully
+2025-06-17 21:48:04,252 - INFO - Initialized LangChain LLM successfully
+2025-06-17 21:48:50,752 - INFO - Initialized LangChain LLM successfully
+2025-06-17 21:51:06,281 - INFO - Initialized LangChain LLM successfully
+2025-06-17 21:51:41,160 - INFO - Initialized LangChain LLM successfully
+2025-06-17 21:51:47,638 - INFO - Initialized LangChain LLM successfully
+2025-06-17 21:51:55,841 - INFO - Initialized LangChain LLM successfully
+2025-06-17 21:52:02,676 - INFO - Initialized LangChain LLM successfully
+2025-06-17 21:52:08,971 - INFO - Initialized LangChain LLM successfully
+2025-06-17 21:52:21,111 - INFO - Initialized LangChain LLM successfully
+2025-06-17 21:52:21,327 - INFO - Initialized LangChain LLM successfully
+2025-06-17 21:52:22,893 - INFO - Successfully scraped content from https://www.linkedin.com/in/linus-torvalds-a775873/
+2025-06-17 21:52:25,839 - INFO - Successfully scraped content from https://github.com/torvalds
+2025-06-17 21:52:27,948 - INFO - Successfully scraped content from https://brendaneich.com/
+2025-06-17 21:52:31,224 - INFO - Successfully scraped content from https://about.gitlab.com/
+2025-06-17 21:52:34,726 - INFO - Successfully scraped content from https://about.gitlab.com/jobs/
+2025-06-17 21:52:36,714 - ERROR - Request error scraping https://www.glassdoor.com/Overview/Working-at-GitLab-EI_IE1296544.11,17.htm: 403 Client Error: Forbidden for url: https://www.glassdoor.com/Overview/Working-at-GitLab-EI_IE1296544.11,17.htm
+2025-06-17 21:52:48,773 - INFO - Candidate behavior analysis completed
+2025-06-17 21:52:58,730 - INFO - Company culture extraction completed
+2025-06-17 21:53:07,640 - INFO - Compatibility mapping completed
+2025-06-17 21:53:16,449 - INFO - Culture fit scoring completed
+2025-06-17 21:57:33,031 - INFO - Initialized LangChain LLM successfully
+2025-06-17 21:57:51,929 - INFO - Initialized LangChain LLM successfully
+2025-06-17 21:58:03,596 - INFO - Initialized LangChain LLM successfully
+2025-06-17 21:58:12,201 - INFO - Initialized LangChain LLM successfully
+2025-06-17 21:59:18,567 - INFO - Initialized LangChain LLM successfully
+2025-06-17 21:59:29,302 - INFO - Initialized LangChain LLM successfully
+2025-06-17 21:59:35,325 - INFO - Initialized LangChain LLM successfully
+2025-06-17 21:59:44,085 - INFO - Initialized LangChain LLM successfully
+2025-06-17 22:00:04,736 - INFO - Initialized LangChain LLM successfully
+2025-06-17 22:00:05,096 - INFO - Successfully extracted text from PDF
+2025-06-17 22:00:05,179 - INFO - Successfully extracted text from PDF
+2025-06-17 22:00:15,160 - INFO - Candidate behavior analysis completed
+2025-06-17 22:00:25,494 - INFO - Company culture extraction completed
+2025-06-17 22:00:33,796 - INFO - Compatibility mapping completed
+2025-06-17 22:00:43,057 - INFO - Culture fit scoring completed
+2025-06-17 22:09:34,540 - INFO - Initialized LangChain LLM successfully
+2025-06-17 22:09:45,497 - INFO - Initialized LangChain LLM successfully
+2025-06-17 22:09:59,050 - INFO - Initialized LangChain LLM successfully
+2025-06-17 22:12:08,555 - INFO - Initialized LangChain LLM successfully
+2025-06-17 22:24:09,052 - INFO - Initialized LangChain LLM successfully
+2025-06-17 22:25:11,159 - INFO - Initialized LangChain LLM successfully
+2025-06-17 22:25:25,983 - INFO - Initialized LangChain LLM successfully
+2025-06-17 22:25:31,028 - INFO - Initialized LangChain LLM successfully
+2025-06-17 22:25:37,711 - INFO - Initialized LangChain LLM successfully
+2025-06-17 22:25:43,030 - INFO - Initialized LangChain LLM successfully
+2025-06-17 22:25:48,589 - INFO - Initialized LangChain LLM successfully
+2025-06-17 22:25:55,104 - INFO - Initialized LangChain LLM successfully
+2025-06-17 22:26:04,923 - INFO - Initialized LangChain LLM successfully
+2025-06-17 22:26:05,138 - INFO - Initialized LangChain LLM successfully
+2025-06-17 22:26:06,522 - INFO - Successfully scraped content from https://www.linkedin.com/in/linus-torvalds-a775873/
+2025-06-17 22:26:09,303 - INFO - Successfully scraped content from https://github.com/torvalds
+2025-06-17 22:26:11,561 - INFO - Successfully scraped content from  https://brendaneich.com/
+2025-06-17 22:26:14,803 - INFO - Successfully scraped content from https://news.ycombinator.com/user?id=torvalds
+2025-06-17 22:26:17,216 - INFO - Successfully scraped content from https://about.gitlab.com/
+2025-06-17 22:26:21,142 - INFO - Successfully scraped content from https://about.gitlab.com/jobs/
+2025-06-17 22:26:23,200 - ERROR - Request error scraping https://www.glassdoor.com/Overview/Working-at-GitLab-EI_IE1296544.11,17.htm: 403 Client Error: Forbidden for url: https://www.glassdoor.com/Overview/Working-at-GitLab-EI_IE1296544.11,17.htm
+2025-06-17 22:26:40,118 - INFO - Successfully scraped content from https://handbook.gitlab.com/handbook/values/
+2025-06-17 22:26:51,566 - INFO - Candidate behavior analysis completed
+2025-06-17 22:27:01,786 - INFO - Company culture extraction completed
+2025-06-17 22:27:09,688 - INFO - Compatibility mapping completed
+2025-06-17 22:27:18,499 - INFO - Culture fit scoring completed
+2025-06-17 22:30:42,062 - INFO - Initialized LangChain LLM successfully
+2025-06-17 22:31:01,886 - INFO - Initialized LangChain LLM successfully
+2025-06-17 22:31:34,610 - INFO - Initialized LangChain LLM successfully
+2025-06-17 22:31:36,916 - INFO - Initialized LangChain LLM successfully
+2025-06-17 22:31:38,283 - INFO - Successfully scraped content from https://www.linkedin.com/in/linus-torvalds-a775873/
+2025-06-17 22:31:41,057 - INFO - Successfully scraped content from https://github.com/torvalds
+2025-06-17 22:31:43,128 - INFO - Successfully scraped content from  https://brendaneich.com/
+2025-06-17 22:31:46,378 - INFO - Successfully scraped content from https://news.ycombinator.com/user?id=torvalds
+2025-06-17 22:31:48,760 - INFO - Successfully scraped content from https://about.gitlab.com/
+2025-06-17 22:31:53,580 - INFO - Successfully scraped content from https://about.gitlab.com/jobs/
+2025-06-17 22:31:55,699 - ERROR - Request error scraping https://www.glassdoor.com/Overview/Working-at-GitLab-EI_IE1296544.11,17.htm: 403 Client Error: Forbidden for url: https://www.glassdoor.com/Overview/Working-at-GitLab-EI_IE1296544.11,17.htm
+2025-06-17 22:32:05,854 - INFO - Successfully scraped content from https://handbook.gitlab.com/handbook/values/
+2025-06-17 22:32:17,092 - INFO - Candidate behavior analysis completed
+2025-06-17 22:32:27,436 - INFO - Company culture extraction completed
+2025-06-17 22:32:35,932 - INFO - Compatibility mapping completed
+2025-06-17 22:32:44,847 - INFO - Culture fit scoring completed
+2025-06-17 22:33:05,850 - INFO - Initialized LangChain LLM successfully
+2025-06-17 22:33:06,086 - INFO - Initialized LangChain LLM successfully
+2025-06-17 22:33:08,399 - INFO - Successfully scraped content from https://www.linkedin.com/in/swetha-guru-36a98b1bb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+2025-06-17 22:33:11,303 - INFO - Successfully scraped content from https://github.com/torvalds
+2025-06-17 22:33:13,436 - INFO - Successfully scraped content from  https://brendaneich.com/
+2025-06-17 22:33:16,752 - INFO - Successfully scraped content from https://news.ycombinator.com/user?id=torvalds
+2025-06-17 22:33:19,863 - INFO - Successfully scraped content from https://about.gitlab.com/
+2025-06-17 22:33:22,427 - INFO - Successfully scraped content from https://about.gitlab.com/jobs/
+2025-06-17 22:33:24,680 - ERROR - Request error scraping https://www.glassdoor.com/Overview/Working-at-GitLab-EI_IE1296544.11,17.htm: 403 Client Error: Forbidden for url: https://www.glassdoor.com/Overview/Working-at-GitLab-EI_IE1296544.11,17.htm
+2025-06-17 22:33:41,725 - INFO - Successfully scraped content from https://handbook.gitlab.com/handbook/values/
+2025-06-17 22:33:52,734 - INFO - Candidate behavior analysis completed
+2025-06-17 22:34:02,975 - INFO - Company culture extraction completed
+2025-06-17 22:34:11,574 - INFO - Compatibility mapping completed
+2025-06-17 22:34:20,790 - INFO - Culture fit scoring completed
+2025-06-17 22:34:37,101 - INFO - Initialized LangChain LLM successfully
+2025-06-17 22:34:45,481 - INFO - Initialized LangChain LLM successfully
+2025-06-17 22:36:51,393 - INFO - Initialized LangChain LLM successfully
+2025-06-17 22:37:02,463 - INFO - Initialized LangChain LLM successfully
+2025-06-17 22:38:07,117 - INFO - Initialized LangChain LLM successfully
+2025-06-17 22:38:09,038 - INFO - Successfully scraped content from https://www.linkedin.com/in/swetha-guru-36a98b1bb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+2025-06-17 22:38:11,459 - INFO - Successfully scraped content from https://github.com/torvalds
+2025-06-17 22:38:13,232 - INFO - Successfully scraped content from  https://brendaneich.com/
+2025-06-17 22:38:16,408 - INFO - Successfully scraped content from https://news.ycombinator.com/user?id=torvalds
+2025-06-17 22:38:19,377 - INFO - Successfully scraped content from https://about.gitlab.com/
+2025-06-17 22:38:22,498 - INFO - Successfully scraped content from https://about.gitlab.com/jobs/
+2025-06-17 22:38:24,212 - ERROR - Request error scraping https://www.glassdoor.com/Overview/Working-at-GitLab-EI_IE1296544.11,17.htm: 403 Client Error: Forbidden for url: https://www.glassdoor.com/Overview/Working-at-GitLab-EI_IE1296544.11,17.htm
+2025-06-17 22:38:30,906 - INFO - Successfully scraped content from https://handbook.gitlab.com/handbook/values/
+2025-06-17 22:38:42,015 - INFO - Candidate behavior analysis completed
+2025-06-17 22:38:52,628 - INFO - Company culture extraction completed
+2025-06-17 22:39:00,907 - INFO - Compatibility mapping completed
+2025-06-17 22:39:09,350 - INFO - Culture fit scoring completed
+2025-06-17 22:46:07,771 - INFO - Initialized LangChain LLM successfully
+2025-06-17 22:46:19,894 - INFO - Initialized LangChain LLM successfully
+2025-06-17 22:46:42,759 - INFO - Initialized LangChain LLM successfully
+2025-06-17 22:46:55,439 - INFO - Initialized LangChain LLM successfully
+2025-06-17 22:47:24,448 - INFO - Initialized LangChain LLM successfully
+2025-06-17 22:47:36,441 - INFO - Initialized LangChain LLM successfully
+2025-06-17 22:47:42,979 - INFO - Initialized LangChain LLM successfully
+2025-06-17 22:47:50,948 - INFO - Initialized LangChain LLM successfully
+2025-06-17 22:48:01,728 - INFO - Initialized LangChain LLM successfully
+2025-06-17 22:48:11,485 - INFO - Initialized LangChain LLM successfully
+2025-06-17 22:48:25,253 - INFO - Initialized LangChain LLM successfully
+2025-06-17 22:48:25,480 - INFO - Initialized LangChain LLM successfully
+2025-06-17 22:49:03,454 - ERROR - Selenium error scraping LinkedIn https://www.linkedin.com/in/linus-torvalds-a775873/: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6845efe75+79173]
+	GetHandleVerifier [0x0x7ff6845efed0+79264]
+	(No symbol) [0x0x7ff6843a9e5a]
+	(No symbol) [0x0x7ff684400586]
+	(No symbol) [0x0x7ff68440083c]
+	(No symbol) [0x0x7ff684454247]
+	(No symbol) [0x0x7ff6844289af]
+	(No symbol) [0x0x7ff68445100d]
+	(No symbol) [0x0x7ff684428743]
+	(No symbol) [0x0x7ff6843f14c1]
+	(No symbol) [0x0x7ff6843f2253]
+	GetHandleVerifier [0x0x7ff6848ba2ad+3004797]
+	GetHandleVerifier [0x0x7ff6848b46fd+2981325]
+	GetHandleVerifier [0x0x7ff6848d3350+3107360]
+	GetHandleVerifier [0x0x7ff68460a9fe+188622]
+	GetHandleVerifier [0x0x7ff68461228f+219487]
+	GetHandleVerifier [0x0x7ff6845f8dc4+115860]
+	GetHandleVerifier [0x0x7ff6845f8f79+116297]
+	GetHandleVerifier [0x0x7ff6845df528+11256]
+	BaseThreadInitThunk [0x0x7ffc68fc259d+29]
+	RtlUserThreadStart [0x0x7ffc698eaf58+40]
+
+2025-06-17 22:49:12,350 - INFO - Successfully scraped content from https://github.com/torvalds
+2025-06-17 22:49:14,402 - INFO - Successfully scraped content from https://brendaneich.com/
+2025-06-17 22:49:18,220 - INFO - Successfully scraped content from https://news.ycombinator.com/user
+2025-06-17 22:49:20,495 - INFO - Successfully scraped content from https://about.gitlab.com/
+2025-06-17 22:49:22,705 - INFO - Successfully scraped content from https://about.gitlab.com/jobs/
+2025-06-17 22:49:24,643 - ERROR - Request error scraping https://www.glassdoor.com/Overview/Working-at-GitLab-EI_IE1296544.11,17.htm: 403 Client Error: Forbidden for url: https://www.glassdoor.com/Overview/Working-at-GitLab-EI_IE1296544.11,17.htm
+2025-06-17 22:49:32,895 - INFO - Successfully scraped content from https://handbook.gitlab.com/handbook/values/
+2025-06-17 22:49:44,334 - INFO - Candidate behavior analysis completed
+2025-06-17 22:49:54,877 - INFO - Company culture extraction completed
+2025-06-17 22:50:04,299 - INFO - Compatibility mapping completed
+2025-06-17 22:50:13,610 - INFO - Culture fit scoring completed
+2025-06-17 22:51:42,397 - INFO - Initialized LangChain LLM successfully
+2025-06-17 23:03:39,813 - INFO - Initialized LangChain LLM successfully
+2025-06-17 23:03:44,076 - INFO - Initialized LangChain LLM successfully
+2025-06-17 23:03:50,299 - INFO - Successfully scraped LinkedIn profile: https://www.linkedin.com/in/linus-torvalds-a775873/
+2025-06-17 23:03:59,264 - INFO - Successfully scraped content from https://github.com/torvalds
+2025-06-17 23:04:01,218 - INFO - Successfully scraped content from https://brendaneich.com/
+2025-06-17 23:04:04,064 - INFO - Successfully scraped content from https://news.ycombinator.com/user
+2025-06-17 23:04:06,235 - INFO - Successfully scraped content from https://about.gitlab.com/
+2025-06-17 23:04:08,769 - INFO - Successfully scraped content from https://about.gitlab.com/jobs/
+2025-06-17 23:04:10,787 - ERROR - Request error scraping https://www.glassdoor.com/Overview/Working-at-GitLab-EI_IE1296544.11,17.htm: 403 Client Error: Forbidden for url: https://www.glassdoor.com/Overview/Working-at-GitLab-EI_IE1296544.11,17.htm
+2025-06-17 23:04:17,900 - INFO - Successfully scraped content from https://handbook.gitlab.com/handbook/values/
+2025-06-17 23:04:30,092 - INFO - Candidate behavior analysis completed
+2025-06-17 23:04:40,229 - INFO - Company culture extraction completed
+2025-06-17 23:04:48,022 - INFO - Compatibility mapping completed
+2025-06-17 23:04:56,713 - INFO - Culture fit scoring completed
+2025-06-17 23:06:20,287 - INFO - Initialized LangChain LLM successfully
+2025-06-17 23:06:25,878 - INFO - Initialized LangChain LLM successfully
+2025-06-17 23:06:30,238 - INFO - Successfully scraped LinkedIn profile: https://www.linkedin.com/in/swetha-guru-36a98b1bb
+2025-06-17 23:06:38,634 - INFO - Successfully scraped content from https://github.com/torvalds
+2025-06-17 23:06:40,434 - INFO - Successfully scraped content from https://brendaneich.com/
+2025-06-17 23:06:43,306 - INFO - Successfully scraped content from https://news.ycombinator.com/user
+2025-06-17 23:06:45,217 - INFO - Successfully scraped content from https://about.gitlab.com/
+2025-06-17 23:06:47,466 - INFO - Successfully scraped content from https://about.gitlab.com/jobs/
+2025-06-17 23:06:49,201 - ERROR - Request error scraping https://www.glassdoor.com/Overview/Working-at-GitLab-EI_IE1296544.11,17.htm: 403 Client Error: Forbidden for url: https://www.glassdoor.com/Overview/Working-at-GitLab-EI_IE1296544.11,17.htm
+2025-06-17 23:06:55,427 - INFO - Successfully scraped content from https://handbook.gitlab.com/handbook/values/
+2025-06-17 23:07:07,275 - INFO - Candidate behavior analysis completed
+2025-06-17 23:07:18,436 - INFO - Company culture extraction completed
+2025-06-17 23:07:27,036 - INFO - Compatibility mapping completed
+2025-06-17 23:07:35,607 - INFO - Culture fit scoring completed
+2025-06-17 23:17:02,540 - INFO - Initialized LangChain LLM successfully
+2025-06-17 23:18:32,903 - INFO - Initialized LangChain LLM successfully
+2025-06-17 23:18:50,374 - INFO - Initialized LangChain LLM successfully
+2025-06-17 23:18:54,806 - INFO - Initialized LangChain LLM successfully
+2025-06-17 23:18:59,529 - INFO - Initialized LangChain LLM successfully
+2025-06-17 23:19:04,591 - INFO - Initialized LangChain LLM successfully
+2025-06-17 23:19:04,807 - INFO - Initialized LangChain LLM successfully
+2025-06-17 23:19:06,667 - WARNING - Login required for LinkedIn URL: https://www.linkedin.com/in/swetha-guru-36a98b1bb
+2025-06-17 23:19:09,590 - INFO - Successfully scraped content from https://about.gitlab.com/
+2025-06-17 23:19:13,188 - INFO - Successfully scraped content from https://about.gitlab.com/jobs/
+2025-06-17 23:19:15,033 - ERROR - Request error scraping https://www.glassdoor.com/Overview/Working-at-GitLab-EI_IE1296544.11,17.htm: 403 Client Error: Forbidden for url: https://www.glassdoor.com/Overview/Working-at-GitLab-EI_IE1296544.11,17.htm
+2025-06-17 23:19:26,109 - INFO - Successfully scraped content from https://handbook.gitlab.com/handbook/values/
+2025-06-17 23:20:03,916 - INFO - Initialized LangChain LLM successfully
+2025-06-17 23:20:12,183 - INFO - Initialized LangChain LLM successfully
+2025-06-17 23:20:17,541 - INFO - Initialized LangChain LLM successfully
+2025-06-17 23:20:17,765 - INFO - Initialized LangChain LLM successfully
+2025-06-17 23:20:20,440 - WARNING - Login required for LinkedIn URL: https://www.linkedin.com/in/swetha-guru-36a98b1bb
+2025-06-17 23:20:24,355 - WARNING - Login page content detected for https://github.com/torvalds
+2025-06-17 23:20:27,657 - INFO - Successfully scraped content from https://brendaneich.com/
+2025-06-17 23:20:30,862 - INFO - Successfully scraped content from https://news.ycombinator.com/user
+2025-06-17 23:20:32,783 - INFO - Successfully scraped content from https://about.gitlab.com/
+2025-06-17 23:20:36,349 - INFO - Successfully scraped content from https://about.gitlab.com/jobs/
+2025-06-17 23:20:38,533 - ERROR - Request error scraping https://www.glassdoor.com/Overview/Working-at-GitLab-EI_IE1296544.11,17.htm: 403 Client Error: Forbidden for url: https://www.glassdoor.com/Overview/Working-at-GitLab-EI_IE1296544.11,17.htm
+2025-06-17 23:20:48,700 - INFO - Successfully scraped content from https://handbook.gitlab.com/handbook/values/
+2025-06-17 23:21:01,301 - INFO - Candidate behavior analysis completed
+2025-06-17 23:21:12,311 - INFO - Company culture extraction completed
+2025-06-17 23:21:21,103 - INFO - Compatibility mapping completed
+2025-06-17 23:21:30,095 - INFO - Culture fit scoring completed
+2025-06-17 23:21:44,626 - INFO - Initialized LangChain LLM successfully
+2025-06-17 23:21:44,894 - INFO - Initialized LangChain LLM successfully
+2025-06-17 23:21:47,836 - WARNING - Login required for LinkedIn URL: https://www.linkedin.com/in/swetha-guru-36a98b1bb
+2025-06-17 23:21:50,981 - WARNING - Login page content detected for https://github.com/torvalds
+2025-06-17 23:21:53,087 - INFO - Successfully scraped content from https://brendaneich.com/
+2025-06-17 23:21:57,621 - INFO - Successfully scraped content from https://news.ycombinator.com/user
+2025-06-17 23:21:59,690 - INFO - Successfully scraped content from https://about.gitlab.com/
+2025-06-17 23:22:02,540 - INFO - Successfully scraped content from https://about.gitlab.com/jobs/
+2025-06-17 23:22:04,766 - ERROR - Request error scraping https://www.glassdoor.com/Overview/Working-at-GitLab-EI_IE1296544.11,17.htm: 403 Client Error: Forbidden for url: https://www.glassdoor.com/Overview/Working-at-GitLab-EI_IE1296544.11,17.htm
+2025-06-17 23:22:09,728 - INFO - Initialized LangChain LLM successfully
+2025-06-17 23:22:12,994 - INFO - Successfully scraped content from https://handbook.gitlab.com/handbook/values/
+2025-06-17 23:26:46,169 - INFO - Initialized LangChain LLM successfully
+2025-06-17 23:26:46,449 - INFO - Initialized LangChain LLM successfully
+2025-06-17 23:26:48,757 - WARNING - Login required for LinkedIn URL: https://www.linkedin.com/in/afrin-s
+2025-06-17 23:26:51,507 - WARNING - Login page content detected for https://github.com/torvalds
+2025-06-17 23:26:53,325 - INFO - Successfully scraped content from https://brendaneich.com/
+2025-06-17 23:26:56,740 - INFO - Successfully scraped content from https://news.ycombinator.com/user
+2025-06-17 23:26:58,640 - INFO - Successfully scraped content from https://about.gitlab.com/
+2025-06-17 23:27:01,112 - INFO - Successfully scraped content from https://about.gitlab.com/jobs/
+2025-06-17 23:27:02,898 - ERROR - Request error scraping https://www.glassdoor.com/Overview/Working-at-GitLab-EI_IE1296544.11,17.htm: 403 Client Error: Forbidden for url: https://www.glassdoor.com/Overview/Working-at-GitLab-EI_IE1296544.11,17.htm
+2025-06-17 23:27:09,279 - INFO - Successfully scraped content from https://handbook.gitlab.com/handbook/values/
+2025-06-17 23:27:19,685 - INFO - Candidate behavior analysis completed
+2025-06-17 23:27:30,514 - INFO - Company culture extraction completed
+2025-06-17 23:27:39,378 - INFO - Compatibility mapping completed
+2025-06-17 23:27:49,379 - INFO - Culture fit scoring completed
+2025-06-17 23:57:36,612 - INFO - Initialized LangChain LLM successfully
+2025-06-17 23:57:37,139 - INFO - Initialized LangChain LLM successfully
+2025-06-17 23:57:43,744 - INFO - Initialized LangChain LLM successfully
+2025-06-17 23:58:54,455 - INFO - Initialized LangChain LLM successfully
+2025-06-17 23:58:59,524 - INFO - Initialized LangChain LLM successfully
+2025-06-17 23:59:24,126 - INFO - Initialized LangChain LLM successfully
+2025-06-17 23:59:24,349 - INFO - Initialized LangChain LLM successfully
+2025-06-17 23:59:42,761 - INFO - Successfully scraped LinkedIn profile: https://www.linkedin.com/in/afrin-s-snsihub-412139370/
+2025-06-17 23:59:49,793 - ERROR - Request error scraping ://Company About Page: https://about.gitlab.com/: No connection adapters were found for '://Company About Page: https://about.gitlab.com/'
+2025-06-18 00:00:21,341 - INFO - Initialized LangChain LLM successfully
+2025-06-18 00:00:28,047 - INFO - Initialized LangChain LLM successfully
+2025-06-18 00:00:36,037 - INFO - Initialized LangChain LLM successfully
+2025-06-18 00:00:43,051 - INFO - Initialized LangChain LLM successfully
+2025-06-18 00:00:54,753 - INFO - Successfully scraped LinkedIn profile: https://www.linkedin.com/in/afrin-s-snsihub-412139370/
+2025-06-18 00:01:01,741 - ERROR - Request error scraping ://Company About Page: https://about.gitlab.com/: No connection adapters were found for '://Company About Page: https://about.gitlab.com/'
+2025-06-18 00:01:04,425 - INFO - Successfully scraped content from https://about.gitlab.com/jobs/
+2025-06-18 00:01:09,216 - INFO - Successfully scraped content from https://handbook.gitlab.com/handbook/values/
+2025-06-18 00:01:16,833 - INFO - Candidate behavior analysis completed
+2025-06-18 00:01:27,376 - INFO - Company culture extraction completed
+2025-06-18 00:01:35,764 - INFO - Compatibility mapping completed
+2025-06-18 00:01:46,816 - INFO - Culture fit scoring completed
+2025-06-18 00:09:13,170 - INFO - Initialized LangChain LLM successfully
+2025-06-18 00:09:26,378 - INFO - Successfully scraped LinkedIn profile: https://www.linkedin.com/in/afrin-s-snsihub-412139370/
+2025-06-18 00:09:33,383 - ERROR - Request error scraping ://Company About Page: https://about.gitlab.com/: No connection adapters were found for '://Company About Page: https://about.gitlab.com/'
+2025-06-18 00:09:36,311 - INFO - Successfully scraped content from https://about.gitlab.com/jobs/
+2025-06-18 00:09:41,104 - INFO - Successfully scraped content from https://handbook.gitlab.com/handbook/values/
+2025-06-18 00:09:50,525 - INFO - Candidate behavior analysis completed
+2025-06-18 00:10:00,490 - INFO - Company culture extraction completed
+2025-06-18 00:10:07,743 - INFO - Compatibility mapping completed
+2025-06-18 00:10:16,724 - INFO - Culture fit scoring completed
+2025-06-18 00:17:36,194 - INFO - Initialized LangChain LLM successfully
+2025-06-18 00:17:50,672 - INFO - Successfully scraped LinkedIn profile: https://www.linkedin.com/in/afrin-s-snsihub-412139370/
+2025-06-18 00:17:57,655 - ERROR - Request error scraping ://Company About Page: https://about.gitlab.com/: No connection adapters were found for '://Company About Page: https://about.gitlab.com/'
+2025-06-18 00:18:00,627 - INFO - Successfully scraped content from https://about.gitlab.com/jobs/
+2025-06-18 00:18:05,906 - INFO - Successfully scraped content from https://handbook.gitlab.com/handbook/values/
+2025-06-18 00:18:15,376 - INFO - Candidate behavior analysis completed
+2025-06-18 00:18:25,995 - INFO - Company culture extraction completed
+2025-06-18 00:18:33,085 - INFO - Compatibility mapping completed
+2025-06-18 00:18:42,244 - INFO - Culture fit scoring completed
+2025-06-18 00:25:18,457 - INFO - Initialized LangChain LLM successfully
+2025-06-18 00:25:31,796 - INFO - Successfully scraped LinkedIn profile: https://www.linkedin.com/in/afrin-s-snsihub-412139370/
+2025-06-18 00:25:38,824 - ERROR - Request error scraping ://Company About Page: https://about.gitlab.com/: No connection adapters were found for '://Company About Page: https://about.gitlab.com/'
+2025-06-18 00:25:40,278 - INFO - Successfully scraped content from https://about.gitlab.com/jobs/
+2025-06-18 00:25:45,078 - INFO - Successfully scraped content from https://handbook.gitlab.com/handbook/values/
+2025-06-18 00:25:53,291 - INFO - Candidate behavior analysis completed
+2025-06-18 00:26:03,591 - INFO - Company culture extraction completed
+2025-06-18 00:26:12,019 - INFO - Compatibility mapping completed
+2025-06-18 00:26:20,258 - INFO - Culture fit scoring completed
+2025-06-18 00:29:51,712 - INFO - Initialized LangChain LLM successfully
+2025-06-18 00:34:12,195 - INFO - Initialized LangChain LLM successfully
+2025-06-18 00:34:18,124 - INFO - Initialized LangChain LLM successfully
+2025-06-18 00:34:26,192 - INFO - Initialized LangChain LLM successfully
+2025-06-18 00:34:34,493 - INFO - Initialized LangChain LLM successfully
+2025-06-18 00:34:41,268 - INFO - Initialized LangChain LLM successfully
+2025-06-18 00:34:54,744 - INFO - Successfully scraped LinkedIn profile: https://www.linkedin.com/in/afrin-s-snsihub-412139370/
+2025-06-18 00:35:03,192 - WARNING - Login page content detected for https://github.com/torvalds
+2025-06-18 00:35:04,928 - INFO - Successfully scraped content from https://brendaneich.com/
+2025-06-18 00:35:07,202 - INFO - Successfully scraped content from https://news.ycombinator.com/user
+2025-06-18 00:35:08,885 - INFO - Successfully scraped content from https://about.gitlab.com/
+2025-06-18 00:35:11,729 - INFO - Successfully scraped content from https://about.gitlab.com/jobs/
+2025-06-18 00:35:13,093 - ERROR - Request error scraping https://www.glassdoor.com/Overview/Working-at-GitLab-EI_IE1296544.11,17.htm: 403 Client Error: Forbidden for url: https://www.glassdoor.com/Overview/Working-at-GitLab-EI_IE1296544.11,17.htm
+2025-06-18 00:35:19,037 - INFO - Successfully scraped content from https://handbook.gitlab.com/handbook/values/
+2025-06-18 00:35:31,442 - INFO - Candidate behavior analysis completed
+2025-06-18 00:35:42,115 - INFO - Company culture extraction completed
+2025-06-18 00:35:50,304 - INFO - Compatibility mapping completed
+2025-06-18 00:35:58,280 - INFO - Culture fit scoring completed
+2025-06-18 00:38:05,849 - INFO - Initialized LangChain LLM successfully
+2025-06-18 00:40:03,425 - INFO - Initialized LangChain LLM successfully
+2025-06-19 13:17:41,660 - INFO - Use pytorch device_name: cpu
+2025-06-19 13:17:41,661 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-19 13:18:09,048 - INFO - Use pytorch device_name: cpu
+2025-06-19 13:18:09,048 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-19 13:18:22,429 - INFO - Use pytorch device_name: cpu
+2025-06-19 13:18:22,429 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-19 13:18:27,541 - INFO - Use pytorch device_name: cpu
+2025-06-19 13:18:27,541 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-19 13:18:33,993 - INFO - Use pytorch device_name: cpu
+2025-06-19 13:18:33,993 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-19 13:18:34,071 - INFO - Use pytorch device_name: cpu
+2025-06-19 13:18:34,071 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-19 13:18:37,102 - INFO - Successfully scraped content from https://www.linkedin.com/in/afrin-s-snsihub-412139370/
+2025-06-19 13:18:37,815 - INFO - Successfully scraped content from https://github.com/torvalds
+2025-06-19 13:18:38,779 - INFO - Successfully scraped content from https://about.gitlab.com/jobs/
+2025-06-19 13:18:39,397 - ERROR - Error scraping https://www.glassdoor.com/Overview/Working-at-GitLab-EI_IE1296544.11,17.htm: 403 Client Error: Forbidden for url: https://www.glassdoor.com/Overview/Working-at-GitLab-EI_IE1296544.11,17.htm
+2025-06-19 13:21:18,033 - INFO - Use pytorch device_name: cpu
+2025-06-19 13:21:18,033 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-19 13:21:29,179 - INFO - Use pytorch device_name: cpu
+2025-06-19 13:21:29,179 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-19 13:21:33,201 - INFO - Use pytorch device_name: cpu
+2025-06-19 13:21:33,201 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-19 13:21:48,962 - INFO - Use pytorch device_name: cpu
+2025-06-19 13:21:48,962 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-19 13:21:55,969 - INFO - Use pytorch device_name: cpu
+2025-06-19 13:21:55,969 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-19 13:21:56,027 - INFO - Use pytorch device_name: cpu
+2025-06-19 13:21:56,027 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-19 13:21:59,226 - INFO - Successfully scraped content from https://www.linkedin.com/in/afrin-s-snsihub-412139370/
+2025-06-19 13:22:00,032 - INFO - Successfully scraped content from https://about.gitlab.com/jobs/
+2025-06-19 13:22:00,265 - INFO - Successfully scraped content from https://about.gitlab.com/jobs/
+2025-06-19 13:22:00,440 - ERROR - Request error scraping https://www.glassdoor.com/Benefits/: 403 Client Error: Forbidden for url: https://www.glassdoor.com/Benefits/
+2025-06-19 13:22:00,641 - INFO - Created 11 chunks and embeddings for bio
+2025-06-19 13:22:00,654 - INFO - Retrieved 10 chunks for query: Extract personality traits, soft skills, communica...
+2025-06-19 13:22:08,441 - INFO - Candidate behavior analysis completed
+2025-06-19 13:22:08,524 - INFO - Created 11 chunks and embeddings for about_us
+2025-06-19 13:22:08,534 - INFO - Retrieved 10 chunks for query: Extract core values, work environment, behavioral ...
+2025-06-19 13:22:15,604 - INFO - Company culture extraction completed
+2025-06-19 13:22:22,143 - INFO - Compatibility mapping completed
+2025-06-19 13:22:29,789 - INFO - Culture fit scoring completed
+2025-06-19 13:28:03,297 - INFO - Use pytorch device_name: cpu
+2025-06-19 13:28:03,297 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-19 13:28:03,299 - INFO - Use pytorch device_name: cpu
+2025-06-19 13:28:03,299 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-19 13:28:11,673 - INFO - Use pytorch device_name: cpu
+2025-06-19 13:28:11,673 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-19 13:28:21,603 - INFO - Use pytorch device_name: cpu
+2025-06-19 13:28:21,603 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-19 13:28:28,078 - INFO - Use pytorch device_name: cpu
+2025-06-19 13:28:28,078 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-19 13:28:47,695 - INFO - Successfully scraped LinkedIn profile: https://www.linkedin.com/in/afrin-s-snsihub-412139370/
+2025-06-19 13:28:54,662 - INFO - Successfully scraped content from https://about.gitlab.com/jobs/
+2025-06-19 13:28:54,883 - INFO - Created 13 chunks and embeddings for linkedin
+2025-06-19 13:28:54,898 - INFO - Retrieved 10 chunks for query: Extract personality traits, soft skills, communica...
+2025-06-19 13:29:02,788 - INFO - Candidate behavior analysis completed
+2025-06-19 13:29:02,874 - INFO - Created 11 chunks and embeddings for about_us
+2025-06-19 13:29:02,885 - INFO - Retrieved 10 chunks for query: Extract core values, work environment, behavioral ...
+2025-06-19 13:29:09,904 - INFO - Company culture extraction completed
+2025-06-19 13:29:15,627 - INFO - Compatibility mapping completed
+2025-06-19 13:29:20,766 - INFO - Culture fit scoring completed
+2025-06-19 13:29:31,674 - INFO - Use pytorch device_name: cpu
+2025-06-19 13:29:31,674 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-19 13:39:22,545 - INFO - Use pytorch device_name: cpu
+2025-06-19 13:39:22,545 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-19 13:39:29,840 - INFO - Use pytorch device_name: cpu
+2025-06-19 13:39:29,840 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-19 13:40:42,072 - INFO - Use pytorch device_name: cpu
+2025-06-19 13:40:42,073 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-19 13:40:59,253 - INFO - Successfully scraped LinkedIn profile: https://www.linkedin.com/in/afrin-s-snsihub-412139370/
+2025-06-19 13:41:07,565 - INFO - Successfully scraped content from https://about.gitlab.com/jobs/
+2025-06-19 13:41:07,781 - INFO - Created 13 chunks and embeddings for linkedin
+2025-06-19 13:41:07,792 - INFO - Retrieved 10 chunks for query: Extract personality traits, soft skills, communica...
+2025-06-19 13:41:15,746 - INFO - Candidate behavior analysis completed
+2025-06-19 13:41:15,826 - INFO - Created 11 chunks and embeddings for about_us
+2025-06-19 13:41:15,837 - INFO - Retrieved 10 chunks for query: Extract core values, work environment, behavioral ...
+2025-06-19 13:41:22,785 - INFO - Company culture extraction completed
+2025-06-19 13:41:28,374 - INFO - Compatibility mapping completed
+2025-06-19 13:41:33,938 - INFO - Culture fit scoring completed
+2025-06-19 13:57:38,907 - INFO - Use pytorch device_name: cpu
+2025-06-19 13:57:38,908 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-19 13:57:38,908 - INFO - Use pytorch device_name: cpu
+2025-06-19 13:57:38,908 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-19 13:57:47,973 - INFO - Use pytorch device_name: cpu
+2025-06-19 13:57:47,973 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-19 13:57:49,665 - INFO - Use pytorch device_name: cpu
+2025-06-19 13:57:49,665 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-19 13:57:49,722 - INFO - Use pytorch device_name: cpu
+2025-06-19 13:57:49,722 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-19 13:58:06,853 - INFO - Successfully scraped LinkedIn profile: https://www.linkedin.com/in/afrin-s-snsihub-412139370/
+2025-06-19 13:58:15,227 - INFO - Successfully scraped content from https://about.gitlab.com/jobs/
+2025-06-19 13:58:15,522 - INFO - Created 13 chunks and embeddings for linkedin
+2025-06-19 13:58:15,657 - INFO - Retrieved 6 chunks for query: Extract personality traits, soft skills, communica...
+2025-06-19 13:58:23,560 - INFO - Candidate behavior analysis completed
+2025-06-19 13:58:23,706 - INFO - Created 11 chunks and embeddings for about_us
+2025-06-19 13:58:23,803 - INFO - Retrieved 5 chunks for query: Extract core values, work environment, behavioral ...
+2025-06-19 13:58:30,593 - INFO - Company culture extraction completed
+2025-06-19 13:58:37,682 - INFO - Compatibility mapping completed
+2025-06-19 13:58:43,753 - INFO - Culture fit scoring completed
+2025-06-19 14:00:34,712 - INFO - Use pytorch device_name: cpu
+2025-06-19 14:00:34,712 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-19 14:01:26,627 - INFO - Use pytorch device_name: cpu
+2025-06-19 14:01:26,627 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-19 14:02:05,810 - INFO - Use pytorch device_name: cpu
+2025-06-19 14:02:05,810 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-19 14:02:14,485 - INFO - Use pytorch device_name: cpu
+2025-06-19 14:02:14,485 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-19 14:02:32,853 - INFO - Successfully scraped LinkedIn profile: https://www.linkedin.com/in/afrin-s-snsihub-412139370/
+2025-06-19 14:02:39,926 - WARNING - Login page content detected for https://github.com/torvalds
+2025-06-19 14:02:41,073 - INFO - Successfully scraped content from https://about.gitlab.com/jobs/
+2025-06-19 14:02:41,377 - INFO - Created 13 chunks and embeddings for linkedin
+2025-06-19 14:02:41,432 - INFO - Retrieved 6 chunks for query: Extract personality traits, soft skills, communica...
+2025-06-19 14:02:49,342 - INFO - Candidate behavior analysis completed
+2025-06-19 14:02:49,492 - INFO - Created 11 chunks and embeddings for about_us
+2025-06-19 14:02:49,555 - INFO - Retrieved 5 chunks for query: Extract core values, work environment, behavioral ...
+2025-06-19 14:02:56,427 - INFO - Company culture extraction completed
+2025-06-19 14:03:03,035 - INFO - Compatibility mapping completed
+2025-06-19 14:03:08,699 - INFO - Culture fit scoring completed
+2025-06-19 14:04:09,552 - INFO - Use pytorch device_name: cpu
+2025-06-19 14:04:09,552 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-19 14:04:18,343 - INFO - Use pytorch device_name: cpu
+2025-06-19 14:04:18,343 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-19 14:04:35,203 - INFO - Successfully scraped LinkedIn profile: https://www.linkedin.com/in/afrin-s-snsihub-412139370/
+2025-06-19 14:04:41,827 - INFO - Successfully scraped content from https://brendaneich.com/
+2025-06-19 14:04:43,014 - INFO - Successfully scraped content from https://news.ycombinator.com/user
+2025-06-19 14:04:43,337 - INFO - Successfully scraped content from https://about.gitlab.com/jobs/
+2025-06-19 14:04:47,163 - INFO - Successfully scraped content from https://handbook.gitlab.com/handbook/values/
+2025-06-19 14:04:47,461 - INFO - Created 13 chunks and embeddings for linkedin
+2025-06-19 14:04:47,633 - INFO - Created 14 chunks and embeddings for bio
+2025-06-19 14:04:47,701 - INFO - Retrieved 10 chunks for query: Extract personality traits, soft skills, communica...
+2025-06-19 14:04:54,516 - INFO - Candidate behavior analysis completed
+2025-06-19 14:04:55,038 - INFO - Created 24 chunks and embeddings for about_us
+2025-06-19 14:04:55,138 - INFO - Retrieved 10 chunks for query: Extract core values, work environment, behavioral ...
+2025-06-19 14:05:02,768 - INFO - Company culture extraction completed
+2025-06-19 14:05:08,829 - INFO - Compatibility mapping completed
+2025-06-19 14:05:14,389 - INFO - Culture fit scoring completed
+2025-06-19 14:07:05,023 - INFO - Use pytorch device_name: cpu
+2025-06-19 14:07:05,024 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-19 14:07:20,854 - INFO - Use pytorch device_name: cpu
+2025-06-19 14:07:20,854 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-19 14:07:34,612 - INFO - Successfully scraped LinkedIn profile: https://www.linkedin.com/in/afrin-s-snsihub-412139370/
+2025-06-19 14:07:41,167 - INFO - Successfully scraped content from https://brendaneich.com/
+2025-06-19 14:07:42,343 - INFO - Successfully scraped content from https://news.ycombinator.com/user
+2025-06-19 14:07:42,969 - INFO - Successfully scraped content from https://about.gitlab.com/jobs/
+2025-06-19 14:07:46,422 - INFO - Successfully scraped content from https://handbook.gitlab.com/handbook/values/
+2025-06-19 14:07:46,583 - INFO - Created 1 chunks and embeddings for linkedin
+2025-06-19 14:07:46,760 - INFO - Created 14 chunks and embeddings for bio
+2025-06-19 14:07:46,850 - INFO - Retrieved 7 chunks for query: Extract personality traits, soft skills, communica...
+2025-06-19 14:07:54,837 - INFO - Candidate behavior analysis completed
+2025-06-19 14:07:55,133 - INFO - Created 24 chunks and embeddings for about_us
+2025-06-19 14:07:55,231 - INFO - Retrieved 10 chunks for query: Extract core values, work environment, behavioral ...
+2025-06-19 14:08:02,774 - INFO - Company culture extraction completed
+2025-06-19 14:08:09,856 - INFO - Compatibility mapping completed
+2025-06-19 14:08:15,873 - INFO - Culture fit scoring completed
+2025-06-19 14:10:07,952 - INFO - Use pytorch device_name: cpu
+2025-06-19 14:10:07,952 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-19 14:11:29,045 - INFO - Use pytorch device_name: cpu
+2025-06-19 14:11:29,045 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-19 14:11:40,303 - INFO - Use pytorch device_name: cpu
+2025-06-19 14:11:40,303 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-19 14:11:45,864 - INFO - Use pytorch device_name: cpu
+2025-06-19 14:11:45,864 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-19 14:11:54,512 - INFO - Use pytorch device_name: cpu
+2025-06-19 14:11:54,512 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-19 14:12:04,662 - INFO - Use pytorch device_name: cpu
+2025-06-19 14:12:04,662 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-19 14:12:07,760 - INFO - Successfully extracted text from PDF
+2025-06-19 14:12:07,935 - INFO - Created 7 chunks and embeddings for resume
+2025-06-19 14:12:07,952 - INFO - Created 1 chunks and embeddings for linkedin
+2025-06-19 14:12:08,011 - INFO - Created 1 chunks and embeddings for github
+2025-06-19 14:12:08,085 - INFO - Retrieved 4 chunks for query: Extract personality traits, soft skills, communica...
+2025-06-19 14:12:15,891 - INFO - Candidate behavior analysis completed
+2025-06-19 14:12:15,928 - INFO - Created 1 chunks and embeddings for about_us
+2025-06-19 14:12:16,053 - INFO - Created 1 chunks and embeddings for reviews
+2025-06-19 14:12:16,131 - INFO - Retrieved 1 chunks for query: Extract core values, work environment, behavioral ...
+2025-06-19 14:12:22,893 - INFO - Company culture extraction completed
+2025-06-19 14:12:29,999 - INFO - Compatibility mapping completed
+2025-06-19 14:12:36,262 - INFO - Culture fit scoring completed
