@@ -275,7 +275,9 @@ curl -X POST "http://localhost:8000/api/rank-resumes" \
 
 This multi-agent system demonstrates the power of collaborative AI in solving complex recruitment challenges. Each agent specializes in a specific domain while maintaining seamless communication for optimal results.
 
-Demo video link : https://www.awesomescreenshot.com/video/41190940?key=fe5156b53c5f26aabc6fad00458bc725
-
 
 **Developed with ❤️ using cutting-edge AI technologies**
+
+Architecture Link : https://docs.google.com/document/d/1gdvOtVl1UhgpzNRw26Vq7_3ud3iDlygkW9M5E0_rd6Y/edit?usp=sharing
+
+Demo video link : https://www.awesomescreenshot.com/video/41190940?key=fe5156b53c5f26aabc6fad00458bc725
