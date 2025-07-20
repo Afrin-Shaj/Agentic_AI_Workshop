@@ -1,0 +1,103 @@
+Multi-Agent EDA System with AutoGen
+This project implements a sophisticated Exploratory Data Analysis (EDA) system using Microsoft's AutoGen framework. It leverages multiple specialized AI agents to automate and streamline the EDA workflow, producing a comprehensive, high-quality report on the Iris dataset (or any provided dataset).
+🌟 Project Overview
+The system coordinates six specialized agents to handle distinct EDA tasks: data cleaning, statistical analysis, visualization, report generation, quality assurance, and code validation. Using AutoGen, the agents collaborate in a structured workflow, incorporating feedback to ensure accuracy and clarity. The final output is a professional markdown report with insights, visualizations, and actionable recommendations.
+🎯 Key Features
+🔄 Complete EDA Workflow
+
+Data Cleaning & Preprocessing: Handles missing values, outliers, and data standardization.
+Statistical Analysis: Generates summaries, correlations, and pattern detection.
+Advanced Visualizations: Produces histograms, box plots, heatmaps, and more.
+Professional Reporting: Compiles findings into a clear, business-friendly markdown report.
+Quality Assurance: Iterative feedback ensures accuracy and clarity.
+
+📊 Comprehensive Analysis
+
+Data Quality: Assesses missing values, duplicates, and outliers.
+Statistical Summaries: Descriptive statistics and distribution analysis.
+Correlation Analysis: Identifies variable relationships with heatmaps.
+Insights: Detects patterns and provides actionable recommendations.
+
+🏗️ System Architecture
+graph TD
+    A[Admin Agent] --> B[Data Preparation Agent]
+    A --> C[EDA Agent]
+    A --> D[Report Generator Agent]
+    A --> E[Critic Agent]
+    A --> F[Executor Agent]
+    
+    B --> G[Clean Data]
+    C --> H[Visualizations & Analysis]
+    D --> I[EDA Report]
+    E --> J[Quality Feedback]
+    F --> K[Code Validation]
+    
+    G --> C
+    H --> D
+    I --> E
+    J --> C
+    J --> D
+    K --> I
+
+🤖 Agent Roles & Responsibilities
+👤 Admin Agent
+
+Role: Workflow Coordinator
+Responsibilities:
+Oversees the EDA workflow.
+Coordinates agent interactions.
+Ensures alignment with project goals.
+Manages task completion.
+
+
+
+🧹 Data Preparation Agent
+
+Role: Data Cleaning Specialist
+Responsibilities:
+Loads and inspects dataset structure.
+Handles missing values, outliers, and duplicates.
+Standardizes data formats.
+Generates a data quality report.
+
+
+
+📊 EDA Agent
+
+Role: Statistical Analysis & Visualization Expert
+Responsibilities:
+Produces statistical summaries and correlations.
+Creates visualizations (e.g., histograms, heatmaps).
+Identifies patterns, trends, and anomalies.
+Provides data-driven insights.
+
+
+
+📝 Report Generator Agent
+
+Role: Documentation Specialist
+Responsibilities:
+Compiles findings into a structured markdown report.
+Creates executive summaries and insights.
+Ensures clear, actionable communication.
+
+
+
+🔍 Critic Agent
+
+Role: Quality Assurance Specialist
+Responsibilities:
+Reviews outputs for accuracy and clarity.
+Provides constructive feedback.
+Validates statistical conclusions and visualizations.
+
+
+
+⚡ Executor Agent
+
+Role: Code Validation Specialist
+Responsibilities:
+Executes and validates code.
+Ensures computational accuracy and reproducibility.
+Handles errors and debugging.
+

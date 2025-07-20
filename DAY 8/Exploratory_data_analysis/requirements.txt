@@ -1,0 +1,17 @@
+pyautogen
+google-generativeai
+pandas
+numpy
+matplotlib
+seaborn
+plotly
+scikit-learn
+scipy
+jupyter
+ipykernel
+python-dotenv
+openpyxl
+xlrd
+statsmodels
+wordcloud
+pillow
