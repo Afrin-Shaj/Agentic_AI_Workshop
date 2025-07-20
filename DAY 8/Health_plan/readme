@@ -1,0 +1,307 @@
+# 🏥 Smart Health Assistant - Multi-Agent System
+
+A comprehensive health assessment tool that uses a sequential conversation pattern with multiple intelligent agents to provide personalized health recommendations, diet plans, and workout schedules.
+
+## 🌟 Features
+
+- **Sequential Agent Architecture**: Agents work together in a predefined sequence
+- **BMI Analysis**: Accurate BMI calculation with health category classification
+- **Personalized Diet Plans**: Customized meal suggestions based on dietary preferences
+- **Tailored Workout Schedules**: Weekly exercise plans based on individual needs
+- **Multi-Dietary Support**: Vegetarian, Non-Vegetarian, and Vegan options
+- **Age & Gender Considerations**: Recommendations adjusted for demographics
+- **Interactive & Demo Modes**: Flexible usage options
+
+## 🏗️ Architecture
+
+### Agent Flow Sequence:
+```
+User Proxy Agent → BMI Tool → BMI Agent → Diet Planner Agent → Workout Scheduler Agent
+```
+
+### Components:
+
+1. **User Proxy Agent**
+   - Collects user input (weight, height, age, gender, dietary preference)
+   - Validates and stores user data
+
+2. **BMI Tool** (Registered to BMI Agent)
+   - Converts height from cm to meters
+   - Calculates BMI using formula: `BMI = Weight(kg) / Height(m)²`
+   - Categorizes BMI results
+
+3. **BMI Agent**
+   - Analyzes BMI scores
+   - Provides health status and recommendations
+   - Determines health category (Underweight/Normal/Overweight/Obese)
+
+4. **Diet Planner Agent**
+   - Creates personalized meal plans
+   - Calculates daily calorie requirements using BMR
+   - Supports multiple dietary preferences
+   - Adjusts recommendations based on BMI category
+
+5. **Workout Scheduler Agent**
+   - Generates weekly workout schedules
+   - Considers age, gender, and BMI category
+   - Provides exercise intensity and duration recommendations
+   - Includes rest days and recovery planning
+
+## 🚀 Quick Start
+
+### Prerequisites
+- Python 3.7 or higher
+- No external dependencies required for core functionality
+
+### Installation
+
+1. **Clone or download the project files**
+2. **Install Python dependencies (optional)**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+   Note: The core application runs without external dependencies
+
+### Running the Application
+
+1. **Interactive Mode** (Enter your own data):
+   ```bash
+   python health_assistant.py
+   # Choose option 1 when prompted
+   ```
+
+2. **Demo Mode** (See system with sample data):
+   ```bash
+   python health_assistant.py
+   # Choose option 2 when prompted
+   ```
+
+## 📊 Usage Examples
+
+### Interactive Mode Input:
+```
+Enter your weight (in kg): 70
+Enter your height (in cm): 175
+Enter your age: 28
+Enter your gender (Male/Female/Other): Male
+Enter your dietary preference (Veg/Non-Veg/Vegan): Non-Veg
+```
+
+### Sample Output:
+```
+🌟 YOUR PERSONALIZED HEALTH PLAN 🌟
+
+📋 USER PROFILE:
+Age: 28 years
+Gender: Male
+Weight: 70.0 kg
+Height: 175.0 cm
+Dietary Preference: Non-Veg
+
+📊 BMI ANALYSIS:
+BMI Value: 22.86
+Category: Normal
+Health Status: Healthy weight range
+
+🍽️ DIET PLAN:
+Daily Calories: 2380 kcal
+Dietary Focus: Balanced macronutrients, variety of nutrients
+
+🏋️ WORKOUT PLAN:
+Focus: Overall fitness and maintenance
+Intensity: Moderate to High
+Session Duration: 45-60 minutes
+Weekly Schedule: 5 active days, 2 rest days
+```
+
+## 🎯 BMI Categories & Recommendations
+
+| BMI Range | Category | Health Focus |
+|-----------|----------|--------------|
+| < 18.5 | Underweight | Weight gain, muscle building |
+| 18.5 - 24.9 | Normal | Maintenance, balanced approach |
+| 25.0 - 29.9 | Overweight | Weight loss, increased activity |
+| ≥ 30.0 | Obese | Significant lifestyle changes |
+
+## 🍽️ Dietary Options
+
+### Vegetarian Plan
+- Plant-based proteins (lentils, quinoa, paneer)
+- Whole grains and complex carbohydrates
+- Dairy products and eggs
+- Variety of fruits and vegetables
+
+### Vegan Plan
+- Plant-based proteins (tofu, tempeh, legumes)
+- Nuts, seeds, and plant-based alternatives
+- No animal products
+- Emphasis on nutrient density
+
+### Non-Vegetarian Plan
+- Lean meats, fish, and poultry
+- Balanced protein sources
+- Complete amino acid profiles
+- Variety in protein options
+
+## 🏋️ Workout Plans
+
+### Intensity Levels:
+- **Low to Moderate**: Ages 50+, Obese category
+- **Moderate**: Ages 35-50, Overweight category
+- **Moderate to High**: Under 35, Normal/Underweight
+
+### Workout Types:
+- **Strength Training**: Muscle building and toning
+- **Cardio**: Heart health and calorie burning
+- **Active Recovery**: Light activities and stretching
+- **Rest Days**: Complete recovery
+
+## 📁 Project Structure
+
+```
+smart-health-assistant/
+├── health_assistant.py    # Main application file
+├── requirements.txt       # Python dependencies
+├── README.md             # This file
+└── docs/                 # Additional documentation (optional)
+```
+
+## 🔧 Customization
+
+### Adding New Dietary Preferences:
+```python
+def _create_custom_meals(self, bmi_category: str) -> Dict[str, List[str]]:
+    # Add your custom meal plans here
+    pass
+```
+
+### Modifying BMI Categories:
+```python
+def get_bmi_category(bmi: float) -> Tuple[str, str]:
+    # Customize BMI ranges and categories
+    pass
+```
+
+### Adding New Workout Types:
+```python
+def _create_weekly_schedule(self, user_data: UserData, bmi_result: BMIResult):
+    # Add custom workout routines
+    pass
+```
+
+## 🧪 Testing
+
+Run the demo mode to test the system:
+```bash
+python health_assistant.py
+# Select option 2 for Demo Mode
+```
+
+The demo uses sample data:
+- Weight: 70 kg
+- Height: 175 cm  
+- Age: 28 years
+- Gender: Male
+- Dietary Preference: Non-Veg
+
+## 📈 Advanced Features
+
+### BMR Calculation:
+- **Male**: BMR = 88.362 + (13.397 × weight) + (4.799 × height) - (5.677 × age)
+- **Female**: BMR = 447.593 + (9.247 × weight) + (3.098 × height) - (4.330 × age)
+
+### Calorie Adjustment by BMI:
+- **Underweight**: BMR × 1.6 (weight gain)
+- **Normal**: BMR × 1.4 (maintenance)
+- **Overweight**: BMR × 1.2 (moderate deficit)
+- **Obese**: BMR × 1.1 (larger deficit)
+
+### Age-Based Modifications:
+- Adjusted workout intensity for different age groups
+- Modified exercise recommendations for joint safety
+- Customized calorie needs based on metabolic changes
+
+## ⚠️ Important Notes
+
+1. **Medical Disclaimer**: This tool provides general health guidance only. Always consult healthcare professionals before starting new diet or exercise programs.
+
+2. **Data Privacy**: All user data is processed locally and not stored permanently.
+
+3. **Accuracy**: BMI calculations use standard formulas but may not account for individual body composition variations.
+
+4. **Limitations**: The system provides general recommendations and cannot replace personalized medical advice.
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Add tests if applicable
+5. Submit a pull request
+
+### Development Setup:
+```bash
+# Install development dependencies
+pip install -r requirements.txt
+
+# Run code formatting
+black health_assistant.py
+
+# Run linting
+flake8 health_assistant.py
+
+# Run tests (if implemented)
+pytest tests/
+```
+
+## 📝 License
+
+This project is open source. Feel free to use, modify, and distribute according to your needs.
+
+## 🐛 Troubleshooting
+
+### Common Issues:
+
+1. **Input Validation Errors**:
+   - Ensure numeric inputs for weight, height, and age
+   - Use exact spellings for gender and dietary preferences
+
+2. **Python Version**:
+   - Requires Python 3.7+ for dataclasses support
+   - Check your Python version: `python --version`
+
+3. **Import Errors**:
+   - All required modules are part of Python standard library
+   - No external dependencies needed for core functionality
+
+### Getting Help:
+
+If you encounter issues:
+1. Check that your Python version is 3.7+
+2. Verify input formats match the expected types
+3. Review the error messages for specific guidance
+4. Try the demo mode to ensure the system is working correctly
+
+## 🎯 Future Enhancements
+
+Potential improvements:
+- [ ] Web interface using Flask/FastAPI
+- [ ] Database integration for user profiles
+- [ ] Progress tracking over time
+- [ ] Integration with fitness trackers
+- [ ] Nutritional database integration
+- [ ] Mobile app development
+- [ ] Machine learning for better recommendations
+- [ ] Multi-language support
+
+## 📞 Support
+
+For questions or support:
+- Review this README thoroughly
+- Check the code comments for implementation details
+- Test with demo mode to understand expected behavior
+- Verify input formats and requirements
+
+---
+
+**Made with ❤️ for better health and fitness**
