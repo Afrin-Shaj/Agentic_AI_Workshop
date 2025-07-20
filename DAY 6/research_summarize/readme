@@ -1,0 +1,253 @@
+# 🤖 Research & Summarization Agent
+
+A sophisticated multi-agent system built with LangGraph that intelligently routes user queries to specialized agents for comprehensive research and summarization.
+
+## 🌟 Features
+
+### 🎯 **Intelligent Query Routing**
+- **Router Agent**: Automatically determines the best approach for each query
+- **Smart Classification**: Routes to web research, knowledge base, or general LLM based on query content
+- **Real-time Decision Making**: Analyzes keywords and context for optimal routing
+
+### 🔍 **Multi-Source Information Gathering**
+- **Web Research Agent**: Fetches latest information using Tavily API with fallback options
+- **RAG Agent**: Retrieves relevant information from a curated knowledge base
+- **LLM Agent**: Handles general queries using Google's Gemini model
+- **Summarization Agent**: Creates structured, professional summaries
+
+### 📚 **Built-in Knowledge Base**
+Pre-loaded with information about:
+- LangGraph and LangChain frameworks
+- Machine Learning concepts
+- Vector databases and embeddings
+- AI/ML tools and techniques
+- Natural Language Processing
+
+## 🏗️ Architecture
+
+```mermaid
+graph TD
+    A[User Query] --> B[Router Agent]
+    B --> C{Query Analysis}
+    C -->|Time-sensitive| D[Web Research Agent]
+    C -->|Technical/AI topics| E[RAG Agent]
+    C -->|General queries| F[LLM Agent]
+    D --> G[Summarization Agent]
+    E --> G
+    F --> G
+    G --> H[Structured Summary]
+```
+
+## 🚀 Quick Start
+
+### Prerequisites
+- Python 3.8+
+- Google AI API key (required)
+- Tavily API key (optional, for enhanced web search)
+
+### Installation
+
+1. **Clone or download the project**
+```bash
+git clone <repository-url>
+cd research-summarization-agent
+```
+
+2. **Install dependencies**
+```bash
+pip install langgraph langchain-google-genai langchain-community python-dotenv requests beautifulsoup4 faiss-cpu
+```
+
+3. **Set up environment variables**
+Create a `.env` file in the project root:
+```env
+GOOGLE_API_KEY=your_google_gemini_api_key_here
+TAVILY_API_KEY=your_tavily_api_key_here  # Optional
+```
+
+4. **Get API Keys**
+   - **Google AI Studio**: Visit [Google AI Studio](https://makersuite.google.com/app/apikey) to get your Gemini API key
+   - **Tavily** (Optional): Visit [Tavily](https://tavily.com) for enhanced web search capabilities
+
+5. **Run the application**
+```bash
+python main.py
+```
+
+## 💡 Usage Examples
+
+### 🌐 Web Research Queries
+Perfect for time-sensitive information:
+```
+🔍 Ask your query: Latest AI news today
+🔍 Ask your query: Current tech trends 2025
+🔍 Ask your query: Recent breakthroughs in machine learning
+```
+
+### 📚 Knowledge Base Queries
+Great for technical AI/ML topics:
+```
+🔍 Ask your query: How does RAG work?
+🔍 Ask your query: Explain LangGraph architecture
+🔍 Ask your query: What are vector embeddings?
+```
+
+### 🧠 General LLM Queries
+For general questions and explanations:
+```
+🔍 Ask your query: Explain quantum computing
+🔍 Ask your query: Write a creative story about robots
+🔍 Ask your query: What is the theory of relativity?
+```
+
+## 📖 Detailed Component Overview
+
+### 🎯 Router Agent
+**Function**: Intelligently routes queries based on content analysis
+- **Web Research**: Triggers on keywords like "latest", "news", "today", "current"
+- **RAG**: Activates for AI/ML topics like "langgraph", "rag", "embeddings"
+- **LLM**: Handles general queries and creative tasks
+
+### 🔍 Web Research Agent
+**Function**: Gathers real-time information from the web
+- **Primary**: Uses Tavily API for comprehensive search results
+- **Fallback**: Basic web scraping when Tavily is unavailable
+- **Error Handling**: Graceful degradation with informative messages
+
+### 📚 RAG Agent
+**Function**: Retrieves information from curated knowledge base
+- **Vector Store**: Uses FAISS for efficient similarity search
+- **Knowledge Base**: Pre-loaded with AI/ML documentation
+- **Semantic Search**: Returns top 3 most relevant documents
+
+### 📝 Summarization Agent
+**Function**: Creates structured, professional summaries
+- **Multi-source Integration**: Combines information from any agent
+- **Professional Format**: Clear, structured, and comprehensive
+- **Context Aware**: Includes source information and key insights
+
+### 🔄 LLM Agent
+**Function**: Handles general queries using Google Gemini
+- **Direct Processing**: For questions not requiring external data
+- **Creative Tasks**: Stories, explanations, analysis
+- **Fallback Option**: When other agents aren't suitable
+
+## ⚙️ Configuration
+
+### Environment Variables
+| Variable | Required | Description |
+|----------|----------|-------------|
+| `GOOGLE_API_KEY` | ✅ Yes | Google Gemini API key for LLM operations |
+| `TAVILY_API_KEY` | ❌ Optional | Enhanced web search capabilities |
+
+### Customization Options
+
+#### 📝 Modify Knowledge Base
+Add your own documents to the knowledge base:
+```python
+custom_docs = [
+    Document(page_content="Your custom knowledge here..."),
+    Document(page_content="More specialized information..."),
+]
+sample_docs.extend(custom_docs)
+```
+
+#### 🎯 Adjust Routing Logic
+Customize routing keywords in the `router_agent` function:
+```python
+time_keywords = ["your", "custom", "keywords"]
+rag_keywords = ["domain", "specific", "terms"]
+```
+
+#### 🔧 Configure Search Parameters
+Modify search behavior:
+```python
+# Number of documents for RAG retrieval
+docs = vector_store.similarity_search(query, k=3)  # Change k value
+
+# Tavily search results count
+tool = TavilySearchResults(api_key=TAVILY_API_KEY, max_results=3)  # Change max_results
+```
+
+## 🛠️ Troubleshooting
+
+### Common Issues
+
+#### ❌ "GOOGLE_API_KEY not found"
+**Solution**: Ensure your `.env` file contains a valid Google AI API key
+```env
+GOOGLE_API_KEY=your_actual_api_key_here
+```
+
+#### ❌ "Tavily search failed"
+**Solution**: The system will fallback gracefully. For enhanced web search, add Tavily API key:
+```env
+TAVILY_API_KEY=your_tavily_api_key_here
+```
+
+#### ❌ Import errors
+**Solution**: Install all required dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+#### ❌ "Expected dict, got string" error
+**Solution**: This was fixed in the latest version. Ensure you're using the updated code.
+
+### Performance Tips
+- **API Limits**: Be mindful of API rate limits for production use
+- **Knowledge Base**: Expand the knowledge base for better RAG performance
+- **Caching**: Consider implementing result caching for repeated queries
+
+## 📊 System Requirements
+
+- **Python**: 3.8 or higher
+- **Memory**: Minimum 2GB RAM (4GB recommended)
+- **Storage**: 100MB for dependencies
+- **Internet**: Required for web research and LLM API calls
+
+## 🔒 Security Considerations
+
+- **API Keys**: Never commit API keys to version control
+- **Environment Variables**: Use `.env` files for sensitive information
+- **Web Scraping**: Respect robots.txt and rate limits
+- **Data Privacy**: Be mindful of data sent to external APIs
+
+## 🤝 Contributing
+
+### Development Setup
+1. Fork the repository
+2. Create a feature branch: `git checkout -b feature-name`
+3. Make your changes and test thoroughly
+4. Submit a pull request with detailed description
+
+### Areas for Improvement
+- **Additional Search APIs**: Integration with more search providers
+- **Enhanced RAG**: Better document chunking and retrieval
+- **Caching System**: Implement result caching
+- **Web Interface**: Build a web-based UI
+- **Async Processing**: Add asynchronous processing capabilities
+
+## 📝 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 🆘 Support
+
+If you encounter issues or have questions:
+1. Check the troubleshooting section above
+2. Review the GitHub issues for similar problems
+3. Create a new issue with detailed description and error logs
+
+## 🙏 Acknowledgments
+
+- **LangGraph**: For the powerful workflow orchestration framework
+- **Google AI**: For the Gemini language model
+- **Tavily**: For comprehensive web search capabilities
+- **LangChain**: For the robust AI application framework
+
+---
+
+**Happy Researching! 🚀**
+
+*Built with ❤️ using LangGraph and modern AI technologies*
