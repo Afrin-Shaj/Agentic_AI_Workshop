@@ -1,0 +1,80 @@
+Agentic AI Content Generator
+This project implements a multi-agent system for generating and refining content on Agentic AI using Microsoft's AutoGen framework. It simulates a collaborative workflow where specialized AI agents work together to produce a high-quality markdown report on Agentic AI, following a reflection-based agentic pattern.
+
+Project Overview
+The system consists of two primary agents: a Content Creator Agent that drafts content on Agentic AI and a Content Critic Agent that evaluates the draft for language clarity and technical accuracy. The agents iterate over a maximum of three turns to refine the content, ensuring clarity, accuracy, and professionalism. The final output is a polished markdown document explaining Agentic AI concepts.
+
+🌟 Key Features
+🎯 Specialized Agent Architecture
+Two Collaborative Agents: Content Creator and Content Critic with task-specific expertise.
+
+Automated Workflow: Coordinated content drafting and review process.
+
+Iterative Refinement: Feedback-driven improvements over multiple turns.
+
+🔄 Content Generation Workflow
+Content Drafting: Initial and revised drafts on Agentic AI.
+
+Content Evaluation: Assessment for clarity and technical correctness.
+
+Feedback & Revision: Iterative improvements based on critic feedback.
+
+Final Report: Professional markdown output with clear insights.
+
+📊 Comprehensive Content
+Clear Explanations: Defines Agentic AI, its characteristics, and applications.
+
+Technical Accuracy: Ensures correct representation of AI concepts.
+
+Actionable Insights: Provides business-friendly explanations and examples.
+
+🏗️ System Architecture
+graph TD
+    A[Admin Agent] --> B[Content Creator Agent]
+    A --> C[Content Critic Agent]
+    
+    B --> D[Draft Content]
+    C --> E[Feedback]
+    
+    D --> C
+    E --> B
+    D --> F[Final Markdown Report]
+🤖 Agent Roles & Responsibilities
+👤 Admin Agent
+Role: Workflow Coordinator
+
+Responsibilities:
+
+Oversees the content generation workflow.
+
+Coordinates interactions between Creator and Critic agents.
+
+Ensures alignment with project goals.
+
+Manages iteration cycles (up to 3 turns).
+
+✍️ Content Creator Agent
+Role: Content Drafting Specialist
+
+Responsibilities:
+
+Drafts initial content on Agentic AI.
+
+Revises content based on Critic feedback.
+
+Ensures clarity, conciseness, and technical accuracy.
+
+Produces markdown-formatted output.
+
+🔍 Content Critic Agent
+Role: Quality Assurance Specialist
+
+Responsibilities:
+
+Evaluates drafts for language clarity and technical accuracy.
+
+Provides constructive feedback for improvement.
+
+Validates AI concepts and terminology.
+
+Suggests enhancements for better communication.
