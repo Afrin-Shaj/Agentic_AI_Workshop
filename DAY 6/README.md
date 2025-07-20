@@ -9,3 +9,9 @@ Project 2
 Task name : Math and general Q/A
 created date : 19/07/2025 
 updated date : 19/07/2025
+
+Project 3
+
+Task name : Research and summarize
+created date : 19/07/2025 
+updated date : 19/07/2025
