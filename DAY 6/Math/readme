@@ -1,0 +1,38 @@
+LangGraph + Gemini Math & General Query Agent
+An AI agent built using LangGraph and Gemini API that answers general questions using an LLM and performs math operations (addition, subtraction, multiplication, division) using custom Python functions.
+
+✅ Features
+Handles math queries like:
+
+"What is 5 plus 3?" → 8.0
+
+"How much is eight divided by 2?" → 4.0
+
+Handles general questions using Gemini (e.g., "Who is the CEO of Google?").
+
+Supports:
+
+Addition
+
+Subtraction
+
+Multiplication
+
+Division (with division by zero handling)
+
+Supports digits and words in math queries (five plus three → 8).
+
+Uses LangGraph for workflow and routing.
+
+Stores API key securely in .env.
+
+✅ Tech Stack
+Python 3.10+
+
+LangGraph
+
+LangChain Google GenAI
+
+Gemini API
+
+word2number for converting number words to digits.
